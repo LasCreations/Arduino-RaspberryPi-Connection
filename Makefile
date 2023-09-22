@@ -1,11 +1,19 @@
 # Project name
-NAME = ArduinoSqlConnection
+NAME = project
 
 # Include directory
 INC_DIR = /home/sketchbook/libraries/
 
 # Library directory
 LIB_DIR = /home/sketchbook/libraries/
+
+# Compiler
+CXX = g++
+
+# Compilation flags
+CXXFLAGS= -Wall -g
+
+
 
 ARDUINO_DIR = /usr/share/arduino
 ARDUINO_PORT = /dev/ttyACM*
@@ -17,8 +25,3 @@ BOARD_SUB = atmega2560
 
 include /usr/share/arduino/Arduino.mk
 
-# Compiler
-CXX = g++
-
-# Compilation flags
-CXXFLAGS= -Wall -g
